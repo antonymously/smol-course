@@ -158,6 +158,7 @@ cython_debug/
 # Model output files
 *sft_output/
 *SmolLM2*
+*results*
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
