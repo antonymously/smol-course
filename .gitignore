@@ -123,6 +123,7 @@ celerybeat.pid
 
 # Environments
 .env
+*.env
 .venv
 env/
 venv/
@@ -155,7 +156,9 @@ dmypy.json
 cython_debug/
 
 # Model output files
-sft_output/
+*sft_output/
+*SmolLM2*
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
